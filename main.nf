@@ -236,7 +236,6 @@ summary['Working dir']    = workflow.workDir
 summary['Container']      = workflow.container
 if(workflow.revision) summary['Pipeline Release'] = workflow.revision
 summary['Current home']   = "$HOME"
-summary['Current user']   = "$USER"
 summary['Current path']   = "$PWD"
 summary['R libraries']    = params.rlocation
 summary['Script dir']     = workflow.projectDir
